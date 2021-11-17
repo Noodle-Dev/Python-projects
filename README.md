@@ -11,3 +11,6 @@ https://www.youtube.com/watch?v=4Mf9rkPGBvA&t=157s&ab_channel=NoodleDev
 
 Python Projects #02:
 https://www.youtube.com/watch?v=kv4MN9TRtNc&t=39s&ab_channel=NoodleDev
+
+Python Pong:
+https://www.youtube.com/watch?v=IAMpl7o9HUI
