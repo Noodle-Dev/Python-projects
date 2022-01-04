@@ -2,9 +2,9 @@ from pytube import YouTube
 import os
 yt = YouTube(
     str(input("Url del video?: \n>> ")))
-video = yt.streams.filter(only_audio=True).first()
+video = yt.streams.filter(only_audio=True).first() #usar solo links de Youtube o Youtube Music
 
-print("Ruta? (Enter para ruta predeterminada)")
+print("Ruta? (Enter para ruta predeterminada)") #Enter para ruta predeterminada
 destination = str(input(">> ")) or '.'
 out_file = video.download(output_path = destination)
 
