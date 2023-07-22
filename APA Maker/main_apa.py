@@ -12,7 +12,6 @@ def create_citation():
     window.clipboard_clear()
     window.clipboard_append(citation_text)
 
-# Main window configuration
 window = tk.Tk()
 window.title("Creador de citas")
 window.geometry("600x400")
